@@ -1,0 +1,41 @@
+[package]
+name = "rmd"
+version = "1.0.0"
+authors = ["abstractsuperman <abstractsuperman@126.com>"]
+edition = "2018"
+description = "rmd is a fast and simple markdown editor written in Rust and GTK+ 3"
+
+[dependencies]
+
+# GTK+ widgets
+gtk = { version = "0.8", features = ["v3_18"] }
+
+# GtkSourceView widget which is based on GtkTextView
+sourceview = { version = "0.8", features = ["v3_18"] }
+
+# Enable us to edit the font in the GtkSourceView
+pango = "0.8"
+
+# pull parser for CommonMark, useful for rendering to HTML
+pulldown-cmark = "0.7"
+
+# html templating
+horrorshow = "0.8"
+
+# GtkWebView widget, used for live preview
+webkit2gtk = "0.9"
+
+# SHA-3
+tiny-keccak = { version = "2", features = ["sha3"] }
+
+# key presses
+gdk = "0.12"
+
+clap = "2.33"
+
+
+
+
+
+
+
