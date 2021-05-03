@@ -1,7 +1,7 @@
 [package]
 name = "rmd"
 version = "1.0.0"
-authors = ["abstractsuperman <abstractsuperman@126.com>"]
+authors = ["Yaguo Zhou <yaguozhou@126.com>"]
 edition = "2018"
 description = "rmd is a fast and simple markdown editor written in Rust and GTK+ 3"
 

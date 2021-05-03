@@ -19,7 +19,7 @@ steps:
     registry = "https://mirrors.ustc.edu.cn/crates.io-index"
     EOF
     ```
-1. git clone https://github.com/abstractsuperman/rmd.git
+1. git clone https://github.com/yaguozhou/rmd.git
 1. bash install_on_local.sh
 1. chmod +x ~/.cargo/bin/rmd
 1. execute `rmd` and enjoy.
